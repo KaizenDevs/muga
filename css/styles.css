@@ -1,0 +1,265 @@
+@import "../css/fonts.css";
+/* --------Styles mySlider -------- */
+.menu-left {
+  margin-right: 20px;
+  float: left;
+  position: relative;
+  z-index: 100;
+  background: #FFF;
+  margin-bottom: 2em;
+}
+.menu-left ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-left: 1.9em;
+}
+.menu-left ul li a {
+  color: #959595;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 15px 10px 0;
+}
+.magenta .menu-left ul li.active {
+  background: #f71f7d;
+  color: #FFF;
+  font-family: 'Bebas', sans-serif;
+  text-align: center;
+  font-size: 1.4em;
+  border: 1px solid #f71f7d;
+}
+.magenta .menu-left ul li {
+  cursor: pointer;
+  padding: 2.5em 1.8em;
+  color: #333;
+  font-family: 'Bebas', sans-serif;
+  text-align: center;
+  font-size: 1.4em;
+  border: 1px solid #EEE;
+}
+.mask {
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  clear: both;
+  border: 1px solid #EEEEEE;
+  margin: 2em;
+}
+.mask .right-content {
+  position: relative;
+}
+.mask .right-content img {
+  width: 100%;
+}
+.right-content .containter {
+  float: left;
+}
+.right-content .containter .img-cont {
+  clear: both;
+}
+/*  -------- END Styles mySlider -------- */
+header img {
+  padding: 2em ;
+  position: relative;
+  z-index: 100;
+}
+header h1 {
+  position: relative;
+  z-index: 100;
+  padding: 0 0 1em 1em;
+  color: #252525;
+  font-family: 'Bebas', sans-serif;
+  font-size: 2.5em;
+}
+header h1 strong {
+  color: #FFF;
+  background: #252525;
+  padding: 0.01em;
+}
+@media screen and (min-width: 500px) {
+  h1 {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 750px) {
+  body {
+    overflow-x: hidden;
+    background: url('../img/bg_right.gif') right top no-repeat;
+  }
+  .widthm {
+    width: 600px;
+  }
+  header div {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  div#projects {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  p {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  ul {
+    margin: 0 auto;
+    width: 930px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body {
+    overflow-x: hidden;
+  }
+  div#projects .mask {
+    width: 100%;
+    margin: 0 auto;
+  }
+  ul li,
+  ul li div {
+    width: 100%;
+  }
+  ul li img,
+  ul li div img {
+    width: 100%;
+  }
+}
+hr {
+  border: none;
+  border-top: 1px solid #D2D2D2;
+  margin-bottom: 1.5em;
+  width: 90%;
+}
+.font1 {
+  font-family: 'Bebas', sans-serif;
+}
+.font2 {
+  font-family: 'Raleway', sans-serif;
+}
+ul {
+  padding: 2em;
+}
+ul li {
+  float: left;
+  margin-left: 2px;
+}
+.thumbs div {
+  position: absolute;
+  z-index: 100;
+  background: url('../img/over.png');
+  width: 230px;
+  height: 120px;
+}
+.big {
+  background: none;
+}
+p.label {
+  text-align: left;
+  margin-left: 2.5em;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.4em;
+}
+p.text {
+  margin-left: 1em;
+  font-family: 'Bebas', sans-serif;
+  font-size: 2.5em;
+}
+p.text a {
+  background: #f71f7d;
+  color: #FFF;
+  text-decoration: none;
+}
+.black {
+  padding: 1em 0 ;
+  color: #333;
+  padding-bottom: 2em;
+}
+.widthm {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 1.8em;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+#main-content {
+  z-index: 100;
+  margin-bottom: 1em;
+  position: relative;
+}
+#main-content div.subtitle {
+  width: 100%;
+  background: #252525;
+}
+#main-content div.subtitle h2 {
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  color: #FFF;
+  font-size: 3em;
+  padding-left: 1em;
+}
+#main-content div.subtitle h2 strong {
+  padding-right: 6px;
+  margin: 0;
+  border: 0;
+  background: #f71f7d;
+  color: #FFF;
+}
+footer {
+  clear: both;
+  display: block;
+  width: 100%;
+  height: 300px;
+  background: #151515;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+footer div {
+  padding-top: 50px;
+  width: 180px;
+  height: 25px;
+  margin: 0 auto;
+}
+footer div img {
+  margin-left: 35px;
+}
+footer div a {
+  display: block;
+  width: 180px;
+  color: #c5c5c5;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+}
+#back-btn {
+  float: right;
+  width: 200px;
+  height: 300px;
+  color: #FFF;
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: 100;
+}
+#bglines {
+  position: absolute;
+  top: 12em;
+  left: 0;
+  clear: both;
+  width: 100%;
+  height: 152px;
+  background: url('../img/bg_lines.gif') repeat-x;
+  z-index: 1;
+}
+#back {
+  float: right;
+  width: 300px;
+  background: #333;
+  color: #FFF;
+}
+#back a {
+  width: 100%;
+  background: #333;
+  color: #FFF;
+}
